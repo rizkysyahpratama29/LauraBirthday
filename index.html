@@ -2,116 +2,223 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Happy Birthday Lauraa ❤️</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>For Lauraa ♡</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Opening -->
-    <section class="hero">
+    <!-- =========================
+         BACKGROUND DECORATION
+    ========================== -->
 
-        <div class="hero-content">
+    <div class="background-blur blur-one"></div>
+    <div class="background-blur blur-two"></div>
+    <div class="background-blur blur-three"></div>
 
-            <p class="small-text">a little gift for my favorite person ♡</p>
+    <div id="floatingHearts" class="floating-hearts"></div>
 
-            <h1>
-                Happy Birthday
-                <span>Lauraa ❤️</span>
-            </h1>
 
-            <p class="subtitle">
-                Aku bikin sesuatu kecil buat kamu...
-            </p>
+    <!-- =========================
+         MUSIC BUTTON
+    ========================== -->
 
-            <button id="openGift">
-                buka kadonya 🎁
-            </button>
+<div class="music-player">
+
+    <button
+        id="musicButton"
+        class="music-button"
+        aria-label="Toggle music"
+    >
+        <span class="music-icon">♫</span>
+
+        <div class="music-info">
+            <span id="musicText">music</span>
+            <small id="songName">song 1</small>
+        </div>
+    </button>
+
+
+    <button
+        id="nextSongButton"
+        class="next-song-button"
+        aria-label="Next song"
+    >
+        →
+    </button>
+
+</div>
+
+
+    <!-- =========================
+         OPENING
+    ========================== -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-decoration hero-star star-one">✦</div>
+        <div class="hero-decoration hero-star star-two">✧</div>
+        <div class="hero-decoration tiny-heart heart-one">♡</div>
+        <div class="hero-decoration tiny-heart heart-two">♡</div>
+
+
+        <!-- DINO -->
+        <div class="dino-wrapper">
+
+            <div class="speech-bubble">
+                Haiii Cantikkkk...... 🦖
+            </div>
+
+            <div class="dino">
+
+                <div class="dino-spike spike-1"></div>
+                <div class="dino-spike spike-2"></div>
+                <div class="dino-spike spike-3"></div>
+
+                <div class="dino-head">
+
+                    <div class="dino-eye eye-left"></div>
+                    <div class="dino-eye eye-right"></div>
+
+                    <div class="dino-blush blush-left"></div>
+                    <div class="dino-blush blush-right"></div>
+
+                    <div class="dino-mouth"></div>
+
+                </div>
+
+                <div class="dino-body">
+
+                    <div class="dino-arm arm-left"></div>
+                    <div class="dino-arm arm-right"></div>
+
+                    <div class="dino-belly"></div>
+
+                </div>
+
+                <div class="dino-leg leg-left"></div>
+                <div class="dino-leg leg-right"></div>
+
+            </div>
 
         </div>
 
-        <div class="scroll-text">
-            dibuat khusus untuk kamu ♡
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                A LITTLE WORLD MADE JUST FOR YOU
+            </p>
+
+            <h1>
+                Happy Birthday
+                <span>Lauraa ♡</span>
+            </h1>
+
+            <p class="hero-description">
+                Aku bikin tempat kecil ini khusus buat kamu.
+                Ada sedikit cerita, sedikit kenangan,
+                dan banyak sayang di dalamnya.
+            </p>
+
+            <button id="openGift" class="primary-button">
+
+                <span>
+                    open your birthday gift
+                </span>
+
+                <span class="button-arrow">
+                    →
+                </span>
+
+            </button>
+
+            <p class="micro-text">
+                dibuat sendiri dengan penuhh cinta
+            </p>
+
+        </div>
+
+
+        <div class="scroll-indicator">
+
+            <span>
+    
+            </span>
+
+            <div class="scroll-line"></div>
+
         </div>
 
     </section>
 
 
-    <!-- Isi hadiah -->
-    <main id="giftContent" class="hidden">
 
-        <!-- Surat -->
-        <section class="letter-section">
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
 
-            <p class="section-label">01 — untuk kamu</p>
+    <main
+        id="mainContent"
+        class="main-content hidden-content"
+    >
 
-            <h2>Hai, Sayanggg 🤍</h2>
 
-            <div class="letter">
+        <!-- =========================
+             INTRO
+        ========================== -->
 
-                <p>
-                    Selamat ulang tahun yaa sayanggg.
-                </p>
+        <section class="section intro-section">
 
-                <p>
-                    Hari ini mungkin cuma satu hari dari banyaknya hari yang
-                    bakal kita lewatin, tapi buat aku hari ini spesial banget.
-                    Karena hari ini adalah hari lahirnya seseorang yang sekarang
-                    punya tempat spesial banget di hidup aku.
-                </p>
-
-                <p>
-                    Aku cuma mau kamu tahu, aku bersyukur banget bisa kenal kamu,
-                    bisa ngobrol sama kamu, bercanda sama kamu, bahkan ngalamin
-                    hari-hari random bareng kamu.
-                </p>
-
-                <p>
-                    Semoga di umur kamu yang baru ini, semua hal baik datang
-                    lebih banyak ke kamu. Semoga apa yang kamu perjuangin
-                    pelan-pelan tercapai, dan semoga kamu selalu punya alasan
-                    buat senyum, kamu cantik kalo senyum 🤍
-                </p>
-
-                <p class="signature">
-                    with lots of love,<br>
-                    pacarmuuu ❤️
-                </p>
-
+            <div class="section-number">
+                01
             </div>
 
-        </section>
+            <div class="intro-grid">
 
+                <div>
 
-        <!-- Foto -->
-        <section class="memories">
+                    <p class="section-tag">
+                        before anything else
+                    </p>
 
-            <p class="section-label">02 — our memories</p>
+                    <h2>
+                        Hai,
+                        <span>sayanggg.</span>
+                    </h2>
 
-            <h2>Beberapa Momen Favorit Bareng Kamu</h2>
-
-            <p class="section-description">
-                Foto-foto sederhana, tapi orang di dalamnya sangat berarti buat aku.
-            </p>
-
-            <div class="photo-grid">
-
-                <div class="polaroid rotate-left">
-                    <img src="images/foto1.jpg" alt="Memori bersama Laura">
-                    <p>us 🤍</p>
                 </div>
 
-                <div class="polaroid rotate-right">
-                    <img src="images/foto2.jpg" alt="Memori bersama Laura">
-                    <p>my favorite person</p>
-                </div>
 
-                <div class="polaroid rotate-left">
-                    <img src="images/foto3.jpg" alt="Memori bersama Laura">
-                    <p>forever memory ♡</p>
+                <div class="intro-card glass-card">
+
+                    <p>
+                        Hari ini bukan cuma tentang umur kamu
+                        yang bertambah.
+                    </p>
+
+                    <p>
+                        Buat aku, hari ini juga jadi alasan
+                        buat ngerayain seseorang yang sekarang
+                        punya tempat spesial banget di hari-hari aku.
+                    </p>
+
+                    <p>
+                        Dan karena aku nggak mau cuma bilang
+                        "happy birthday" lewat chat...
+                    </p>
+
+                    <strong>
+                        jadi aku bikin ini buat kamu ♡
+                    </strong>
+
                 </div>
 
             </div>
@@ -119,40 +226,120 @@
         </section>
 
 
-        <!-- Alasan sayang -->
-        <section class="love-section">
 
-            <p class="section-label">03 — little things</p>
+        <!-- =========================
+             OUR BEGINNING
+        ========================== -->
 
-            <h2>Hal-Hal yang Aku Suka Dari Kamu</h2>
+        <section class="section beginning-section">
 
-            <div class="love-cards">
+            <div class="section-heading">
 
-                <div class="love-card">
-                    <span>01</span>
-                    <h3>Senyum Kamu</h3>
-                    <p>
-                        Karena entah kenapa senyum kamu selalu berhasil
-                        bikin mood aku ikut bagus.
-                    </p>
+                <p class="section-tag">
+                    our little beginning
+                </p>
+
+                <h2>
+                    the start of
+                    <span>us.</span>
+                </h2>
+
+                <p>
+                    Belum lama, tapi sudah cukup untuk membuat
+                    banyak hal kecil terasa lebih berarti.
+                </p>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-line"></div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+                        19 JULY
+                    </div>
+
+                    <div class="timeline-card glass-card">
+
+                        <span class="timeline-icon">
+                            ♡
+                        </span>
+
+                        <h3>
+                            the day we became us
+                        </h3>
+
+                        <p>
+                            Hari ketika akhirnya ada kata
+                            "kita".
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="love-card">
-                    <span>02</span>
-                    <h3>Cara Kamu Cerita</h3>
-                    <p>
-                        Bahkan cerita random dari kamu tetap jadi sesuatu
-                        yang aku suka dengerin.
-                    </p>
+
+                <div class="timeline-item timeline-right">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+                        AFTER THAT
+                    </div>
+
+                    <div class="timeline-card glass-card">
+
+                        <span class="timeline-icon">
+                            ☁
+                        </span>
+
+                        <h3>
+                            more little moments
+                        </h3>
+
+                        <p>
+                            Obrolan random, ngambek kecil,
+                            ketawa nggak jelas, dan hal-hal
+                            sederhana yang ternyata aku suka.
+                        </p>
+
+                    </div>
+
                 </div>
 
-                <div class="love-card">
-                    <span>03</span>
-                    <h3>Kamu, secara keseluruhan</h3>
-                    <p>
-                        Nggak harus selalu sempurna. Aku suka kamu karena
-                        kamu adalah kamu, Selalu jadi diri sendiri yaaa cantikk ♡
-                    </p>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+                        TODAY
+                    </div>
+
+                    <div class="timeline-card glass-card">
+
+                        <span class="timeline-icon">
+                            ✦
+                        </span>
+
+                        <h3>
+                            still choosing you
+                        </h3>
+
+                        <p>
+                            Hubungan kita mungkin masih baru,
+                            tapi kamu sudah jadi bagian yang
+                            aku tunggu-tunggu setiap hari.
+                        </p>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -160,68 +347,684 @@
         </section>
 
 
-        <!-- Surprise -->
-        <section class="surprise-section">
 
-            <p class="section-label">04 — one last thing</p>
+        <!-- =========================
+             MEMORIES
+        ========================== -->
 
-            <h2>Aku Masih Punya Sesuatu...</h2>
+<section class="section memories-section">
 
-            <p>
-                pencet tombolnya sayanggg
-            </p>
+    <div class="section-heading centered-heading">
 
-            <button id="surpriseButton">
-                pencet aku 💌
+        <p class="section-tag">
+            our memories
+        </p>
+
+        <h2>
+            tiny moments,
+            <span>big feelings.</span>
+        </h2>
+
+        <p>
+            Geser fotonya yaa ♡
+        </p>
+
+    </div>
+
+
+    <div class="memory-slider">
+
+        <button
+            id="prevMemory"
+            class="slider-button slider-left"
+        >
+            ←
+        </button>
+
+
+        <div class="memory-stage">
+
+
+            <!-- FOTO 1 -->
+            <div class="memory-card active">
+
+                <div class="photo-number">
+                    01
+                </div>
+
+                <img
+                    src="images/foto1.jpg"
+                    alt="Memori bersama Laura"
+                >
+
+                <div class="memory-caption">
+
+                    <span>
+                        my favorite person
+                    </span>
+
+                    <p>
+                        salah satu foto yang bikin aku senyum sendiri.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 2 -->
+            <div class="memory-card">
+
+                <div class="photo-number">
+                    02
+                </div>
+
+                <img
+                    src="images/foto2.jpg"
+                    alt="Memori bersama Laura"
+                >
+
+                <div class="memory-caption">
+
+                    <span>
+                        us ♡
+                    </span>
+
+                    <p>
+                        sederhana, tapi tetap jadi favorit.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 3 -->
+            <div class="memory-card">
+
+                <div class="photo-number">
+                    03
+                </div>
+
+                <img
+                    src="images/foto3.jpg"
+                    alt="Memori bersama Laura"
+                >
+
+                <div class="memory-caption">
+
+                    <span>
+                        keep this forever
+                    </span>
+
+                    <p>
+                        karena aku suka ada kamu di dalam cerita ini.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 4 -->
+            <div class="memory-card">
+
+                <div class="photo-number">
+                    04
+                </div>
+
+                <img
+                    src="images/foto4.jpg"
+                    alt="Memori bersama Laura"
+                >
+
+                <div class="memory-caption">
+
+                    <span>
+                        pretty girl ♡
+                    </span>
+
+                    <p>
+                        yang ini juga wajib disimpan di sini hehe.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 5 -->
+            <div class="memory-card">
+
+                <div class="photo-number">
+                    05
+                </div>
+
+                <img
+                    src="images/foto5.jpg"
+                    alt="Memori bersama Laura"
+                >
+
+                <div class="memory-caption">
+
+                    <span>
+                        another little memory
+                    </span>
+
+                    <p>
+                        ternyata hal kecil bareng kamu gampang jadi favorit.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOTO 6 -->
+            <div class="memory-card">
+
+                <div class="photo-number">
+                    06
+                </div>
+
+                <img
+                    src="images/foto6.jpg"
+                    alt="Memori bersama Laura"
+                >
+
+                <div class="memory-caption">
+
+                    <span>
+                        more of us, please.
+                    </span>
+
+                    <p>
+                        semoga setelah ini masih banyak foto yang bisa ditambah ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <button
+            id="nextMemory"
+            class="slider-button slider-right"
+        >
+            →
+        </button>
+
+    </div>
+
+
+    <div class="slider-dots">
+
+        <button class="dot active" data-slide="0"></button>
+        <button class="dot" data-slide="1"></button>
+        <button class="dot" data-slide="2"></button>
+        <button class="dot" data-slide="3"></button>
+        <button class="dot" data-slide="4"></button>
+        <button class="dot" data-slide="5"></button>
+
+    </div>
+
+</section>
+
+
+        <!-- =========================
+             LOVE CARDS
+        ========================== -->
+
+        <section class="section love-section">
+
+            <div class="section-heading">
+
+                <p class="section-tag">
+                    some things about you
+                </p>
+
+                <h2>
+                    little things
+                    <span>I adore.</span>
+                </h2>
+
+                <p>
+                    Klik satu-satu kartunya.
+                </p>
+
+            </div>
+
+
+            <div class="love-grid">
+
+
+                <button class="love-card">
+
+                    <div class="love-card-front">
+
+                        <span class="love-card-number">
+                            01
+                        </span>
+
+                        <span class="love-card-emoji">
+                            ☺
+                        </span>
+
+                        <h3>
+                            your smile
+                        </h3>
+
+                        <p>
+                            tap me
+                        </p>
+
+                    </div>
+
+
+                    <div class="love-card-back">
+
+                        <p>
+                            Aku suka senyum kamu.
+                            Sesederhana itu.
+                            Kadang cuma lihat kamu senyum aja
+                            bisa bikin mood aku ikut berubah.
+                        </p>
+
+                    </div>
+
+                </button>
+
+
+
+                <button class="love-card">
+
+                    <div class="love-card-front">
+
+                        <span class="love-card-number">
+                            02
+                        </span>
+
+                        <span class="love-card-emoji">
+                            ✦
+                        </span>
+
+                        <h3>
+                            your stories
+                        </h3>
+
+                        <p>
+                            tap me
+                        </p>
+
+                    </div>
+
+
+                    <div class="love-card-back">
+
+                        <p>
+                            Bahkan cerita yang menurut kamu
+                            nggak penting tetap aku suka dengar,
+                            karena yang cerita adalah kamu.
+                        </p>
+
+                    </div>
+
+                </button>
+
+
+
+                <button class="love-card">
+
+                    <div class="love-card-front">
+
+                        <span class="love-card-number">
+                            03
+                        </span>
+
+                        <span class="love-card-emoji">
+                            ♡
+                        </span>
+
+                        <h3>
+                            simply you
+                        </h3>
+
+                        <p>
+                            tap me
+                        </p>
+
+                    </div>
+
+
+                    <div class="love-card-back">
+
+                        <p>
+                            Nggak perlu selalu sempurna.
+                            Aku suka kamu dengan segala versi kamu,
+                            termasuk versi yang nyebelin sedikit 😭
+                        </p>
+
+                    </div>
+
+                </button>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             MINI INTERACTION
+        ========================== -->
+
+        <section class="section question-section">
+
+            <div class="question-card glass-card">
+
+                <div class="mini-dino">
+
+                    <div class="mini-dino-face">
+                        🦖
+                    </div>
+
+                </div>
+
+                <p class="section-tag">
+                    important question
+                </p>
+
+                <h2>
+                    Hari ini Laura mau apa?
+                </h2>
+
+
+                <div class="choice-buttons">
+
+                    <button
+                        class="choice-button"
+                        data-response="peluk"
+                    >
+                        peluk 🤍
+                    </button>
+
+                    <button
+                        class="choice-button"
+                        data-response="cium"
+                    >
+                        cium 😚
+                    </button>
+
+                    <button
+                        class="choice-button"
+                        data-response="semua"
+                    >
+                        semuanya 😭
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="choiceResponse"
+                    class="choice-response"
+                >
+                    pilih duluu hehe
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             LETTER
+        ========================== -->
+
+        <section class="section letter-section">
+
+            <div class="section-heading centered-heading">
+
+                <p class="section-tag">
+                    something from my heart
+                </p>
+
+                <h2>
+                    you've got
+                    <span>mail.</span>
+                </h2>
+
+                <p>
+                    Klik amplopnya yaa.
+                </p>
+
+            </div>
+
+
+            <button
+                id="envelopeButton"
+                class="envelope"
+            >
+
+                <div class="envelope-back"></div>
+
+                <div class="envelope-paper">
+                    for Lauraa ♡
+                </div>
+
+                <div class="envelope-front"></div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-heart">
+                    ♡
+                </div>
+
             </button>
 
-            <div id="surpriseMessage" class="surprise-message hidden">
+        </section>
 
-                <div class="big-heart">
-                    ❤️
+
+
+        <!-- =========================
+             FINAL SURPRISE
+        ========================== -->
+
+        <section class="section final-section">
+
+            <div class="final-card">
+
+                <div class="final-dino">
+                    🦖
                 </div>
 
-                <h2>I Love You, Lauraa.</h2>
-
-                <p>
-                    Terima kasih udah hadir di hidup aku.
-                    Semoga bukan cuma ulang tahun kamu yang sekarang,
-                    tapi ulang tahun kamu berikutnya, berikutnya lagi,
-                    dan seterusnya...
+                <p class="section-tag">
+                    one last thing
                 </p>
 
+                <h2>
+                    udah sampai sini?
+                </h2>
+
                 <p>
-                    aku masih bisa jadi salah satu orang yang bilang:
+                    berarti masih ada satu surprise terakhir.
                 </p>
 
-                <h3>
-                    "Selamat ulang tahun, sayang." 🤍
-                </h3>
+                <button
+                    id="finalSurprise"
+                    class="primary-button"
+                >
+                    buka yang terakhir ♡
+                </button>
+
+
+                <div
+                    id="finalMessage"
+                    class="final-message"
+                >
+
+                    <p class="final-small">
+                        HAPPY BIRTHDAY, SAYANG
+                    </p>
+
+                    <h3>
+                        I love you,
+                        <span>Lauraa.</span>
+                    </h3>
+
+                    <p>
+                        Semoga umur baru kamu dipenuhi
+                        banyak hal baik, banyak kebahagiaan,
+                        dan banyak alasan untuk tetap tersenyum.
+                    </p>
+
+                    <p>
+                        Hubungan kita memang belum lama.
+                        Tapi aku berharap ini baru permulaan
+                        dari banyak hari yang masih bisa kita
+                        lewatin bareng.
+                    </p>
+
+                    <p class="final-quote">
+                        "19 July was only the beginning."
+                    </p>
+
+                    <div class="signature">
+                        with lots of love,<br>
+                        rizkyy🐇 ♡
+                    </div>
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- Ending -->
+        <!-- FOOTER -->
+
         <footer>
 
             <p>
                 made with
-                <span>♥</span>
-                especially for MyWorld 🤍
+                <span>♡</span>
+                for Lauraa
             </p>
+
+            <small>
+               
+            </small>
 
         </footer>
 
     </main>
 
 
-    <!-- Audio -->
-    <audio id="birthdayMusic" loop>
-        <source src="music/lagu.mp3" type="audio/mpeg">
-    </audio>
 
+    <!-- =========================
+         LETTER MODAL
+    ========================== -->
+
+    <div
+        id="letterModal"
+        class="letter-modal"
+    >
+
+        <div class="modal-overlay"></div>
+
+
+        <div class="modal-letter">
+
+            <button
+                id="closeLetter"
+                class="close-letter"
+            >
+                ×
+            </button>
+
+
+            <p class="letter-label">
+                DEAR LAURAA,
+            </p>
+
+            <h2>
+                Happy Birthday,
+                Sayanggg ♡
+            </h2>
+
+
+            <div class="letter-content">
+
+                <p>
+                    Selamat ulang tahun yaa sayanggg.
+                </p>
+
+                <p>
+                    Aku nggak tahu apakah website kecil ini
+                    cukup buat nunjukin betapa spesialnya kamu
+                    buat aku, tapi setidaknya aku pengen bikin
+                    sesuatu yang benar-benar aku buat sendiri.
+                </p>
+
+                <p>
+                    Aku seneng bisa kenal kamu,
+                    bisa punya kamu sebagai seseorang
+                    yang sekarang aku panggil "sayang",
+                    dan bisa menjalani hari-hari kecil
+                    bareng kamu.
+                </p>
+
+                <p>
+                    Kita memang baru mulai sejak 19 Juli.
+                    Belum lama.
+                    Masih banyak hal tentang satu sama lain
+                    yang bakal kita pelajari.
+                </p>
+
+                <p>
+                    Tapi aku berharap selama perjalanan itu,
+                    kita tetap bisa saling milih,
+                    saling ngerti,
+                    dan saling pulang.
+                </p>
+
+                <p>
+                    Semoga semua yang kamu perjuangkan
+                    dipermudah.
+                    Semoga kamu selalu dikelilingi hal-hal baik.
+                    Dan semoga hari ini kamu sadar kalau
+                    kamu sangat berharga.
+                </p>
+
+                <p>
+                    Happy birthday once again,
+                    my favorite girl.
+                </p>
+
+            </div>
+
+
+            <div class="letter-signature">
+                always yours,<br>
+                <span>pacarmuu ♡</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         AUDIO
+    ========================== -->
+
+<audio id="birthdayMusic"></audio>
 
     <script src="script.js"></script>
 
